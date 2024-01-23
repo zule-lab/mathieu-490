@@ -1,0 +1,45 @@
+Datasets used in QGIS to produce 80 m x 80 m buffers with tree and temperature data within them. 
+
+Dataset: 660_IndiceCanopee_2019_TIF
+Raster data containing 1 m x 1 m canopy cover across the island of Montreal, provided by Communauté Métropolitaine de Montréal (https://observatoire.cmm.qc.ca/produits/donnees-georeferencees/#indice_canopee)
+Each file contains a different section of the island. 660_IndiceCanopee_2019.tif is the whole island.
+
+Dataset: sept_4_run.csv
+Dataset that contains temperature data using the bike sensor, captured on September 4, 2021.
+TIMESTAMP: year-month-date hour:minute:second AM/PM (EST)
+RECORD: 
+latitude_a:
+latitude_b:
+longitude_a:
+longitude_b:
+speed:
+course:
+magnetic_variation:
+fix_quality:
+nmbr_satellites	altitude:
+pps:
+dt_since_gprmc:
+gps_ready:
+max_clock_change:
+nmbr_clock_change:
+T109SS_C: temperature (degrees celsius)
+lat deg: latitude degrees
+lat min: latitude minutes
+lat sec: latitude seconds
+lat dms: latitude degrees / minutes / seconds
+long deg: longitude degrees
+long min: longitude minutes
+long sec: longitude seconds 
+long dms: longitude degrees/minutes/seconds
+
+dataset: 80x80_buffers.gpkg
+Buffers surrounding the bike path route, 80m x 80 m resolution. 
+
+dataset: sept_4_bike_path.gpkg
+Dataset depicting the line that the path took during the route.
+begin:
+end:
+geometry: line geometry depicting path
+
+dataset: sept_4_bike_path_points.gpkg
+Points along the route where temperature measurements were taken. Columns are the same as in sept_4_run.csv but with an added point geometry column.
