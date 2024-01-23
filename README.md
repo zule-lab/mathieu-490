@@ -2,6 +2,10 @@
 
 Mathieu Johnson, to complete the requirements for SCOL391 at Concordia University
 
+
+[![DOI](https://zenodo.org/badge/747253548.svg)](https://zenodo.org/doi/10.5281/zenodo.10557185)
+
+
 ## Abstract
 The urban heat island effect (UHI) is a phenomenon wherein an urban area will be significantly warmer than its surrounding environment. The urban forest can aid in counteracting this effect by cooling the surrounding air though cooling and evapotranspiration. Our study aims to investigate the relationships between air temperature and 4 variables of interest used to describe the urban forest, namely canopy cover, specific leaf are, diversity and low green cover. We used a mobile temperature sensing apparatus to measure air temperature in Notre-Dame-de-Grace, a Montreal neighbourhood. A significant negative relationship was found between canopy cover and air temperature. A significant positive relationship was found between specific leaf area and air temperature. No significant relationship was found between either diversity or low green cover and air temperature.
 
