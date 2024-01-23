@@ -1,0 +1,36 @@
+These datasets were used in analysis. The buffers.csv dataset was produced using the instructions in the README and data found in input/QGIS.
+
+dataset: buffers.csv
+buffer_ID: unique identifier for buffer 
+begin
+end
+distance
+angle
+_count
+_sum
+%_low_green: percent of buffer covered by low vegetation (from CMM)
+%_canopy: percent of buffer covered by canopy (from CMM)
+%_total_green: percent of buffer covered by vegetation + canopy
+mean_temp: average temperature within the buffer (calculated from field measurements)
+mean_DBH: average diameter at breast height of trees within the buffer (from Kayleigh Hutt-Taylor)
+mean_SLA: average specific leaf area for trees within the buffer (from Alain Paquette's Lab)
+mean_SLA_weighted: average weighted specific leaf area for trees within the buffer
+shann_div: Shannon Diversity within the buffer (from Kayleigh Hutt-Taylor)
+
+
+dataset: trees_all.csv
+Tree data collected in the neighbourhood, done by Kayleigh Hutt-Taylor and Maya Catterall. Functional group data provided by Alain Paquette.
+TREE ID: unique identifier for each tree measured 
+Rue: street (or park) where the tree is located 
+SIGLE: unique genus/species code
+Essence_latin: scientific name (genus species cultivar)
+ESSENCE_ANG: common english name
+DBH: diameter at breast height (cm)
+Latitude: latitude of tree 
+Longitude: longitude of tree
+Functional_Group: functional group of species as per Paquette et al. 2021
+buffer_ID: buffer the tree falls within
+SLA: specific leaf area
+SLA_weighted_PIVOT: 
+SLA_weighted: weighted specific leaf area
+
